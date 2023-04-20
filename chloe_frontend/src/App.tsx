@@ -10,7 +10,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-screen" style={{ backgroundColor: "#E6E6FA" }}>
       <BrowserRouter>
         <Navigation />
         <Routes>
@@ -21,7 +21,6 @@ function App() {
           <Route path="/contact" Component={Contact} />
         </Routes>
       </BrowserRouter>
-      About Chloe
     </div>
   );
 }

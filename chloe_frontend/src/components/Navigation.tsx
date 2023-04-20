@@ -13,11 +13,14 @@ const menu = [
 function Navigation() {
   return (
     <div
-      className="fixed z-999 w-screen flex place-items-center top-0 mb-3"
-      style={{ backgroundColor: "#E6E6FA" }}
+      className="sticky z-999 w-screen flex place-items-center justify-center top-0 mb-3"
+      style={{ backgroundColor: "#6A5ACD" }}
     >
       <nav className="flex items-center justify-between space-x-10 mx-36">
-        <div className="justify-start px-16 text-xl">
+        <div
+          className="justify-start pl-8 pr-36 py-5 text-2xl font-bold"
+          style={{ color: "#E6E6FA" }}
+        >
           <Link to={"/"}>CHLOE</Link>
         </div>
         <div className="flex justify-end p-2">
