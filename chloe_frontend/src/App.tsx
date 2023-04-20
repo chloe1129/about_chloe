@@ -7,6 +7,7 @@ import Education from "./pages/Education";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" Component={Home} />
+          <Route path="/aboutme" Component={AboutMe} />
           <Route path="/experience" Component={Experience} />
           <Route path="/education" Component={Education} />
           <Route path="/project" Component={Project} />
