@@ -21,15 +21,15 @@ function Navigation() {
 
   return (
     <div
-      className="sticky z-999 w-screen md:flex top-0 mb-3 sm:space-y-4"
+      className="sticky z-999 w-screen lg:flex top-0 mb-3 sm:space-y-4"
       style={{ backgroundColor: "#E6E6FA" }}
     >
-      <nav className="flex items-center justify-between space-x-10 mx-36">
-        <div className="justify-start shrink-0 pl-2 pr-36 py-8 text-3xl font-bold text-violet-800">
+      <nav className="flex items-center justify-between space-x-6 mx-36">
+        <div className="justify-start shrink-0 pr-36 py-8 text-3xl font-bold text-violet-800">
           <Link to={"/"}>CHLOE Lee</Link>
         </div>
 
-        <div className={"hidden md:flex justify-end p-2"}>
+        <div className={"hidden lg:flex sticky top-0 right-10 p-2"}>
           <div
             onMouseEnter={handleHoverEffectOn}
             onMouseLeave={handleHoverEffectOff}
@@ -39,8 +39,8 @@ function Navigation() {
               to="/"
               className={
                 mouseOn === "Home"
-                  ? "font-bold pb-4 text-lg text-violet-800"
-                  : "font-bold pb-4 text-lg text-gray-700"
+                  ? "font-bold text-lg text-violet-800"
+                  : "font-bold text-lg text-gray-700"
               }
             >
               Home
@@ -112,7 +112,7 @@ function Navigation() {
           </div>
         </div>
       </nav>
-      <div className="md:hidden absolute right-5 top-5">
+      <div className="lg:hidden absolute right-10 top-6">
         <button onClick={() => setMenuToggle(!menuToggle)}>
           {menuToggle ? (
             <svg
@@ -149,7 +149,7 @@ function Navigation() {
       </div>
       <div
         className={classNames(
-          "md:hidden shrink-0 flex-col space-y-2 place-items-center items-center justify-center",
+          "lg:hidden shrink-0 flex flex-col space-y-2 items-center justify-center",
           {
             hidden: !menuToggle,
           }
@@ -157,31 +157,31 @@ function Navigation() {
       >
         <NavLink
           to="/"
-          className="block py-2 px-4 text-sm text-gray-700 hover:text-violet-800"
+          className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           About Chloe
         </NavLink>
         <NavLink
           to="/experience"
-          className="block py-2 px-4 text-sm text-gray-700 hover:text-violet-800"
+          className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           Experience
         </NavLink>
         <NavLink
           to="/education"
-          className="block py-2 px-4 text-sm text-gray-700 hover:text-violet-800"
+          className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           Education
         </NavLink>
         <NavLink
           to="/projects"
-          className="block py-2 px-4 text-sm text-gray-700 hover:text-violet-800"
+          className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           Projects
         </NavLink>
         <NavLink
           to="/contact"
-          className="block py-2 px-4 text-sm text-gray-700 hover:text-violet-800"
+          className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           Contact
         </NavLink>
