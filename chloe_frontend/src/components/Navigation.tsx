@@ -25,25 +25,25 @@ function Navigation() {
       style={{ backgroundColor: "#E6E6FA" }}
     >
       <nav className="flex items-center justify-between space-x-6 mx-36">
-        <div className="justify-start shrink-0 pr-36 py-8 text-3xl font-bold text-violet-800">
-          <Link to={"/"}>CHLOE Lee</Link>
+        <div className="justify-start shrink-0 pr-20 py-8 text-2xl font-bold text-violet-800">
+          <Link to={"/"}>CHLOE</Link>
         </div>
 
-        <div className={"hidden lg:flex sticky top-0 right-10 p-2"}>
+        <div className={"hidden lg:flex py-2"}>
           <div
             onMouseEnter={handleHoverEffectOn}
             onMouseLeave={handleHoverEffectOff}
             className="mx-6"
           >
             <NavLink
-              to="/"
+              to="/aboutme"
               className={
-                mouseOn === "Home"
-                  ? "font-bold text-lg text-violet-800"
-                  : "font-bold text-lg text-gray-700"
+                mouseOn === "About"
+                  ? "font-bold text-base text-violet-800"
+                  : "font-bold text-base text-gray-700"
               }
             >
-              Home
+              About
             </NavLink>
           </div>
           <div
@@ -55,8 +55,8 @@ function Navigation() {
               to="/experience"
               className={
                 mouseOn === "Experience"
-                  ? "font-bold pb-4 text-lg text-violet-800"
-                  : "font-bold pb-4 text-lg text-gray-700"
+                  ? "font-bold pb-4 text-base text-violet-800"
+                  : "font-bold pb-4 text-base text-gray-700"
               }
             >
               Experience
@@ -71,8 +71,8 @@ function Navigation() {
               to="/education"
               className={
                 mouseOn === "Education"
-                  ? "font-bold pb-4 text-lg text-violet-800"
-                  : "font-bold pb-4 text-lg text-gray-700"
+                  ? "font-bold pb-4 text-base text-violet-800"
+                  : "font-bold pb-4 text-base text-gray-700"
               }
             >
               Education
@@ -87,8 +87,8 @@ function Navigation() {
               to="/project"
               className={
                 mouseOn === "Project"
-                  ? "font-bold pb-4 text-lg text-violet-800"
-                  : "font-bold pb-4 text-lg text-gray-700"
+                  ? "font-bold pb-4 text-base text-violet-800"
+                  : "font-bold pb-4 text-base text-gray-700"
               }
             >
               Project
@@ -103,8 +103,8 @@ function Navigation() {
               to="/contact"
               className={
                 mouseOn === "Contact"
-                  ? "font-bold pb-4 text-lg text-violet-800"
-                  : "font-bold pb-4 text-lg text-gray-700"
+                  ? "font-bold pb-4 text-base text-violet-800"
+                  : "font-bold pb-4 text-base text-gray-700"
               }
             >
               Contact
@@ -159,7 +159,7 @@ function Navigation() {
           to="/"
           className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
-          About Chloe
+          About
         </NavLink>
         <NavLink
           to="/experience"
