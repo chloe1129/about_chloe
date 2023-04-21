@@ -14,7 +14,7 @@ function Home() {
           </div>
           <div className="flex space-x-2 items-center">
             <div className="text-xl font-semibold text-violet-800">Chloe,</div>
-            <div>is my other name that you can also call me</div>
+            <div>is my other name that you can call me</div>
           </div>
 
           <div className="text-2xl font-semibold">I build technologies</div>
@@ -23,12 +23,12 @@ function Home() {
             cutting-edge technologies to solve real-world problems.
           </div>
           <div>
-            <button className="px-10 py-4">
+            <button className="px-3 py-4">
               <a href="https://github.com/chloe1129">
                 <Github className="hover:fill-violet-800" />
               </a>
             </button>
-            <button className="py-4">
+            <button className="px-5 py-4">
               <a href="https://www.linkedin.com/in/chaehyun-lee-14a3bb217/">
                 <Linkedin className="hover:fill-violet-800" />
               </a>
