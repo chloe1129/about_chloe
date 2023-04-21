@@ -14,7 +14,7 @@ function Home() {
           </div>
           <div className="flex space-x-2 items-center">
             <div className="text-xl font-semibold text-violet-800">Chloe,</div>
-            <div>is my other name that you can call me</div>
+            <div>is my other name</div>
           </div>
 
           <div className="text-2xl font-semibold">I build technologies</div>
@@ -37,7 +37,12 @@ function Home() {
         </div>
 
         <div className="flex m-10 md:shrink-0 justify-center">
-          <img className="rounded-xl" alt="" src={profileImg} width={300} />
+          <img
+            className="rounded-2xl border-white border-8"
+            alt=""
+            src={profileImg}
+            width={300}
+          />
         </div>
       </div>
     </div>
