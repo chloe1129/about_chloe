@@ -156,7 +156,7 @@ function Navigation() {
         )}
       >
         <NavLink
-          to="/"
+          to="/aboutme"
           className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           About
