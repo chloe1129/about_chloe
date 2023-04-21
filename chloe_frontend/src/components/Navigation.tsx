@@ -24,8 +24,8 @@ function Navigation() {
       className="sticky z-999 w-screen lg:flex top-0 mb-3 sm:space-y-4"
       style={{ backgroundColor: "#E6E6FA" }}
     >
-      <nav className="flex items-center justify-between space-x-6 mx-36">
-        <div className="justify-start shrink-0 pr-20 py-8 text-2xl font-bold text-violet-800">
+      <nav className="flex items-center justify-between space-x-6 mx-36 font-sans">
+        <div className="justify-start shrink-0 pr-20 py-8 text-3xl font-bold text-violet-800">
           <Link to={"/"}>CHLOE</Link>
         </div>
 
@@ -112,7 +112,7 @@ function Navigation() {
           </div>
         </div>
       </nav>
-      <div className="lg:hidden absolute right-10 top-6">
+      <div className="lg:hidden absolute right-12 top-6">
         <button onClick={() => setMenuToggle(!menuToggle)}>
           {menuToggle ? (
             <svg
