@@ -7,18 +7,20 @@ function Home() {
   return (
     <div className="flex justify-center">
       <div className="md:flex grid mx-10 align-middle items-center">
-        <div className="flex-col pt-8 space-y-5">
-          <div className="text-base text-gray-600">Hi my name is</div>
-          <div className="text-5xl font-semibold text-violet-800">
+        <div className="flex-col pt-8 space-y-5 font-sans">
+          <div className="text-lg text-gray-600">Hi my name is</div>
+          <div className="text-6xl font-semibold text-violet-800">
             ChaeHyun Lee
           </div>
           <div className="flex space-x-2 items-center">
-            <div className="text-xl font-semibold text-violet-800">Chloe,</div>
+            <div className="text-2xl font-semibold text-violet-800">Chloe,</div>
             <div>is my other name</div>
           </div>
 
-          <div className="text-2xl font-semibold">I build technologies</div>
-          <div>
+          <div className="text-3xl font-semibold">
+            I design and develop technologies
+          </div>
+          <div className="text-lg">
             I am a passionate SW Engineer with the deep interest in utilizing
             cutting-edge technologies to solve real-world problems.
           </div>
