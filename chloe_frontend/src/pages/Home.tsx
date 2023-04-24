@@ -6,7 +6,7 @@ import Linkedin from "../img/svg/Linkedin";
 function Home() {
   return (
     <div
-      className="flex justify-center pb-20"
+      className="flex justify-center pb-20 h-full"
       style={{ backgroundColor: "#E6E6FA" }}
     >
       <div className="md:flex grid mx-10 my-10 align-middle items-center">

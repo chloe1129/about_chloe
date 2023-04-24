@@ -11,7 +11,7 @@ import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
-    <div className="h-full" style={{ backgroundColor: "#E6E6FA" }}>
+    <div className="h-full w-screen" style={{ backgroundColor: "#E6E6FA" }}>
       <BrowserRouter>
         <Navigation />
         <Routes>
