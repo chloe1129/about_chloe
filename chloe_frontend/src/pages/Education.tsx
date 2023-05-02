@@ -24,7 +24,7 @@ class Education extends React.Component {
                 Chung-Ang University
               </div>
             </a>
-            <div className="flex flex-row">
+            <div className="flex flex-row items-end justify-between">
               <div className="p-4">
                 <div className="font-semibold">Course Work</div>
                 <div className="p-3">
@@ -35,7 +35,7 @@ class Education extends React.Component {
                   <div>- Computer Architecture</div>
                 </div>
               </div>
-              <CAU className="w-20" />
+              <CAU className="w-20 m-6" />
             </div>
           </div>
         </div>
