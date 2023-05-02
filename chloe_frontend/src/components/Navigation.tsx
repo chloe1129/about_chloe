@@ -174,7 +174,7 @@ function Navigation() {
           Education
         </NavLink>
         <NavLink
-          to="/projects"
+          to="/project"
           className="block py-2 px-4 text-base text-gray-700 hover:text-violet-800"
         >
           Projects
